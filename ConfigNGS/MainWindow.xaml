@@ -1,0 +1,38 @@
+﻿<Window x:Class="ConfigNGS.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ConfigNGS"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="500">
+    <Grid>
+        <StackPanel VerticalAlignment="Top" Margin="10">
+            <Label Content="Conversion Tool" FontWeight="Bold" FontSize="16" HorizontalAlignment="Center" Margin="0,0,0,0"/>
+
+            <Button Content="Choose File" HorizontalAlignment="Left" Height="30" Width="150" Margin="5,15,0,5"
+                    Name="FileButton" Click="FileButton_Click" />
+            <Button Content="Choose Folder" HorizontalAlignment="Left" Height="30" Width="150" Margin="5,15,0,15"
+                    Name="FolderButton" Click="FolderButton_Click" />
+            <TextBlock Height="30" Width="400" HorizontalAlignment="Left" Margin="5,0,0,0"
+                       Name="fileChoice"/>
+
+
+            <Label Content="dummy data 1" Margin="0,5,0,0"/>
+            <TextBox HorizontalAlignment="Left" VerticalContentAlignment="Center" Height="25" Width="200" Margin="5,0,0,15"
+                     Name="DateInfo"/>
+            <Label Content="dummy data 2"/>
+            <TextBox HorizontalAlignment="Left" VerticalContentAlignment="Center" Height="25" Width="200" Margin="5,0,0,15"
+                     Name="CaseInfo"/>
+            <Label Content="dummy data 3"/>
+            <TextBox HorizontalAlignment="Left" VerticalContentAlignment="Center" Height="25" Width="200" Margin="5,0,0,15"
+                     Name="TechInfo"/>
+
+
+
+
+
+
+        </StackPanel>
+    </Grid>
+</Window>
